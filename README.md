@@ -1,3 +1,4 @@
 # REDEMPTION
 Reduced Dimension Ensemble Modeling and Parameter Estimation
 <img style = "float: right;" src = "https://github.com/CABSEL/REDEMPTION/blob/master/logo.png" align="right"> 
+REDEMPTION (REduced Dimension Ensemble Modeling and Parameter estimaTION) is a MATLAB toolbox for the identification of parameters and parameter ensembles of ODE models from time-series data. The toolbox is based on incremental parameter estimation (IPE) and integrated flux parameter estimation (IFPE) methods [1-3], in which the data fitting (parameter estimation) problem is formulated as a nested optimization of reduced dimension. REDEMPTION provides a user-friendly interface for model description (using Power-law, Lin-log kinetics or from SBML format), parameter estimation, ensemble modelling and visualization of results. For computational speed-up, the toolbox also offers a parallelization option using MATLAB Parallel Computing Toolbox. Please cite [4] if you use this toolbox.
