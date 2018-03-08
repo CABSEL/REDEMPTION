@@ -4,7 +4,7 @@ Reduced Dimension Ensemble Modeling and Parameter Estimation
 REDEMPTION (REduced Dimension Ensemble Modeling and Parameter estimaTION) is a MATLAB toolbox for the identification of parameters and parameter ensembles of ODE models from time-series data. The toolbox is based on incremental parameter estimation (IPE) and integrated flux parameter estimation (IFPE) methods [1-3], in which the data fitting (parameter estimation) problem is formulated as a nested optimization of reduced dimension. REDEMPTION provides a user-friendly interface for model description (using Power-law, Lin-log kinetics or from SBML format), parameter estimation, ensemble modelling and visualization of results. For computational speed-up, the toolbox also offers a parallelization option using MATLAB Parallel Computing Toolbox. Please cite [4] if you use this toolbox.
 
 ## Required MATLAB toolboxes
-[SPLINEFIT](http://ch.mathworks.com/matlabcentral/fileexchange/13812-splinefit?requestedDomain=true)Toolbox
+[SPLINEFIT](http://ch.mathworks.com/matlabcentral/fileexchange/13812-splinefit?requestedDomain=true) Toolbox
 [HYPERSPACE](http://www.ieu.uzh.ch/wagner/publications-software.html)
 
 ## Recommended third-party MATLAB toolboxes
@@ -17,3 +17,13 @@ REDEMPTION (REduced Dimension Ensemble Modeling and Parameter estimaTION) is a M
 - To import model in SBML format: [SBML Toolbox](http://sbml.org/Software/SBMLToolbox) [4] and [LibSBML](http://sbml.org/Software/libSBML) [5] or [SimBiology](https://ch.mathworks.com/products/simbiology.html)
 
 REDEMPTION was implemented and tested on MATLAB 2012a platform.
+
+## Last Update, Download & Installation
+Current version: 07.08.2015
+
+Download & unzip the [REDEMPTION.zip] file.
+
+We welcome suggestions for additional features that you would like to see on REDEMPTION.
+
+## License
+Redistribution and use in P-code form is permitted provided agreeing to the License (TXT, 2 KB).
